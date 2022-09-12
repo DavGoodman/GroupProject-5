@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+img {
+    height: 400px;
+    width: 300px;
+    margin: 0px 50px;
+    padding: 15px;
+    
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+img:active{
+    padding: 10px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(121, 121, 121);
+    border: solid black
+}
+.txt {
+    font-size:xx-large;
+    font-family: 'Raleway', sans-serif;
+}
